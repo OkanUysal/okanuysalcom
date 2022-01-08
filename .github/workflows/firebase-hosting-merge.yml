@@ -10,9 +10,7 @@ jobs:
   build_and_deploy:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
       - run: npm install
-      - uses: actions/checkout@v2
       - run: npm install -g react-scripts
       - uses: actions/checkout@v2
       - run: npm run build
