@@ -9,7 +9,6 @@ import EducationPanel from '../education-panel/EducationPanel';
 import ProjectTabPanel from '../project-tabpanel/ProjectTabPanel';
 import SwipeableViews from 'react-swipeable-views';
 import styles from './DetailTabPanel.module.css';
-import Sidebar from '../sidebar/sidebar';
 
 class DetailTabPanel extends Component {
 

@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import InfoPanel from './components/info-panel/InfoPanel';
 import DetailTabPanel from './components/detail-tabpanel/DetailTabPanel';
 import SideBar from './components/sidebar/sidebar'
 
