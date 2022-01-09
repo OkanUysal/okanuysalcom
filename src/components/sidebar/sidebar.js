@@ -12,7 +12,6 @@ export default props => {
       <Drawer className={styles.drawer} variant="permanent" classes={{paper: styles.drawerPaper}} anchor="left">
         <InfoCard></InfoCard>
       </Drawer>
-
     </Menu>
   );
 };
