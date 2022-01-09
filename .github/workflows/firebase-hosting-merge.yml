@@ -13,6 +13,7 @@ jobs:
       - uses: actions/checkout@v2
       - run: npm install
       - run: npm install -g react-scripts
+      - run: npm i firebase-tools
       - run: npm run build
       - uses: FirebaseExtended/action-hosting-deploy@v0
         with:
