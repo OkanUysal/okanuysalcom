@@ -1,16 +1,21 @@
-import React, { Component } from 'react';
-import DetailTabPanel from './components/detail-tabpanel/DetailTabPanel';
-import SideBar from './components/sidebar/sidebar'
+import React from "react";
+import "./App.css";
+import Main from "./containers/Main";
+import { ThemeProvider } from "styled-components";
+import { chosenTheme } from "./theme";
+import { GlobalStyles } from "./global";
 
-class App extends Component {
-    render() {
-        return (
-            <div className="App">
-                <SideBar pageWrapId={'page-wrap'} outerContainerId={'outer-container'} />
-                <DetailTabPanel></DetailTabPanel>
-            </div>
-        );
-    }
+function App() {
+  return (
+    <ThemeProvider theme={chosenTheme}>
+      <>
+        <GlobalStyles />
+        <div>
+          <Main theme={chosenTheme} />
+        </div>
+      </>
+    </ThemeProvider>
+  );
 }
 
 export default App;
