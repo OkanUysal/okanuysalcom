@@ -41,6 +41,12 @@ const socialMediaLinks = [
     fontAwesomeIcon: "fa-google", // Reference https://fontawesome.com/icons/google?style=brands
     backgroundColor: "#D14836", // Reference https://simpleicons.org/?q=gmail
   },
+  {
+    name: "Play Store",
+    link: "https://play.google.com/store/search?q=uysalokan",
+    fontAwesomeIcon: "fa-google-play", // Reference https://fontawesome.com/icons/google?style=brands
+    backgroundColor: "#414141", // Reference https://simpleicons.org/?q=gmail
+  },
 ];
 
 const skills = {
