@@ -17,7 +17,8 @@ const greeting = {
   nickname: "uysalokan",
   subTitle:
     "Detail-oriented, organized and meticulous employee. Works at fast pace to meet tight deadlines. Enthusiastic team player ready to contribute to company success. Highly skilled software development professional bringing more than 6 years in software design, development and integration. Offering advanced knowledge of C and Java programming languages.",
-  resumeLink: "TO BE ADDED.",
+  resumeLink:
+    "https://github.com/OkanUysal/resume/blob/master/okan_uysal_resume.pdf",
   portfolio_repository: "https://github.com/OkanUysal/okanuysalcom",
   githubProfile: "https://github.com/OkanUysal",
 };
