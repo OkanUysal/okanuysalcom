@@ -61,9 +61,11 @@ export default function ExperienceScreen() {
                 {/* Experience Card */}
                 <Card style={styles.card} leftBorderColor={exp.color}>
                   <View style={styles.cardHeader}>
-                    <View style={styles.logoContainer}>
-                      <Image source={getLogoSource(exp.logoPath)} style={styles.logo} resizeMode="contain" />
-                    </View>
+                    {exp.logoPath !== '' && (
+                      <View style={styles.logoContainer}>
+                        <Image source={getLogoSource(exp.logoPath)} style={styles.logo} resizeMode="contain" />
+                      </View>
+                    )}
                     <View style={styles.headerDetails}>
                       <ThemedText type="smallBold" style={styles.jobTitle}>
                         {exp.title}

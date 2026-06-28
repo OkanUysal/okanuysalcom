@@ -58,9 +58,11 @@ export default function EducationScreen() {
             {portfolioData.degrees.map((degree, index) => (
               <Card key={index} style={styles.card} leftBorderColor="#fca311">
                 <View style={styles.rowLayout}>
-                  <View style={styles.universityLogoContainer}>
-                    <Image source={getLogoSource(degree.logoPath)} style={styles.uniLogo} resizeMode="contain" />
-                  </View>
+                  {degree.logoPath !== '' && (
+                    <View style={styles.universityLogoContainer}>
+                      <Image source={getLogoSource(degree.logoPath)} style={styles.uniLogo} resizeMode="contain" />
+                    </View>
+                  )}
                   <View style={styles.detailsContainer}>
                     <ThemedText type="smallBold" style={styles.degreeTitle}>
                       {degree.title}
@@ -114,9 +116,11 @@ export default function EducationScreen() {
               {portfolioData.certifications.map((cert, index) => (
                 <Card key={index} style={styles.certCard}>
                   <View style={styles.certHeader}>
-                    <View style={styles.certLogoContainer}>
-                      <Image source={getLogoSource(cert.logoPath)} style={styles.certLogo} resizeMode="contain" />
-                    </View>
+                    {cert.logoPath !== '' && (
+                      <View style={styles.certLogoContainer}>
+                        <Image source={getLogoSource(cert.logoPath)} style={styles.certLogo} resizeMode="contain" />
+                      </View>
+                    )}
                     <View style={styles.certHeaderDetails}>
                       <ThemedText type="smallBold" style={styles.certTitle}>
                         {cert.title}

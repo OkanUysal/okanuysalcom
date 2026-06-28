@@ -129,7 +129,7 @@ export const portfolioData = {
     {
       title: 'ISO-26262 Functional Safety',
       subtitle: 'TÜV / Automotive Functional Safety training and certification.',
-      logoPath: 'coursera_logo.png', // Fallback to coursera_logo if no specific logo
+      logoPath: '', // No specific logo
       certificateLink: '#',
       altName: 'ISO-26262 Certification',
       colorCode: 'rgba(99, 102, 241, 0.2)',
@@ -176,7 +176,7 @@ export const portfolioData = {
           title: 'Technical Lead / Senior Software Engineer',
           company: 'Yapı Kredi Teknoloji',
           companyUrl: 'https://www.yapikrediteknoloji.com.tr/',
-          logoPath: 'self.jpeg', // using self or standard placeholder if no specific logo exists
+          logoPath: '', // No specific logo
           duration: 'April 2023 - Present',
           location: 'Istanbul(Asia), TURKEY',
           color: '#0077B5',
