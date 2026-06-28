@@ -43,5 +43,8 @@
     "build": "npx expo export --platform web --output-dir build/web",
     "lint": "expo lint"
   },
+  "engines": {
+    "node": ">=20.19.4"
+  },
   "private": true
 }
