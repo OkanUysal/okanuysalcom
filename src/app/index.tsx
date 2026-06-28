@@ -29,13 +29,6 @@ export default function HomeScreen() {
           
           {/* Hero Section */}
           <View style={styles.heroContainer}>
-            <View style={styles.avatarContainer}>
-              <Image 
-                source={require('@/assets/images/self.jpeg')} 
-                style={styles.avatar} 
-                resizeMode="cover"
-              />
-            </View>
             <View style={styles.heroTextContainer}>
               <ThemedText type="title" style={styles.nameText}>
                 {portfolioData.greeting.title}

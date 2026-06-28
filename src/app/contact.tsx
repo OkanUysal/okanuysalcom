@@ -49,9 +49,6 @@ export default function ContactScreen() {
           {/* Main Info */}
           <View style={styles.mainContainer}>
             <View style={styles.avatarSection}>
-              <View style={styles.avatarOutline}>
-                <Image source={require('@/assets/images/self.jpeg')} style={styles.avatar} resizeMode="cover" />
-              </View>
               <ThemedText type="smallBold" style={styles.availText}>
                 Available for Consultations & Roles
               </ThemedText>

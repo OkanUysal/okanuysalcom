@@ -5,13 +5,7 @@ import { portfolioData } from '@/data/portfolioData';
 import { Spacing } from '@/constants/theme';
 
 export function Footer() {
-  return (
-    <View style={styles.footer}>
-      <ThemedText type="small" themeColor="textSecondary" style={styles.text}>
-        Made with ❤️ by {portfolioData.greeting.title}
-      </ThemedText>
-    </View>
-  );
+  return null;
 }
 
 const styles = StyleSheet.create({
