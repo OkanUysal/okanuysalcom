@@ -28,6 +28,7 @@ func init() {
 	mime.AddExtensionType(".jpeg", "image/jpeg")
 	mime.AddExtensionType(".ico", "image/x-icon")
 	mime.AddExtensionType(".json", "application/json; charset=utf-8")
+	mime.AddExtensionType(".txt", "text/plain; charset=utf-8")
 	mime.AddExtensionType(".woff", "font/woff")
 	mime.AddExtensionType(".woff2", "font/woff2")
 	mime.AddExtensionType(".ttf", "font/ttf")
